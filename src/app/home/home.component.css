@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald');
+
+.image-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.banner-content {
+   
+    position: absolute;
+    z-index: 99999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(255, 254, 254);
+    line-height: 1.5;
+}
+.banner-content h1{
+    font-family: 'Montserrat', sans-serif;
+   
+    
+}
+.img-content img {
+    width:auto;
+    height:100vh;
+    display: block;
+}
+
+.ban-btn {
+    
+   
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #fff;
+ 
+    padding: 20px 20px;
+    border-radius: 3px;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #393a3a;
+    opacity: .8;
+    z-index: 999;
+    height: 100%;
+}
+
+.stepBox 
+{
+    background-color: #000;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.stepBox h1 
+{
+    font-size: 50px;
+    font-weight: bold;
+    color:var(--primary-color);
+}
+.stepBox p 
+{
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+}
+.highlight
+{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.lyt{
+    
+    color: var(--primary-color);
+    font-weight: bold;
+    font-style: italic;
+}
+.servicebox 
+{
+    padding: 0px 5px;
+    
+} 
+.servicebox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.servicebox h1 
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.abstrct{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

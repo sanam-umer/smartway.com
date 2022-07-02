@@ -1,0 +1,28 @@
+
+
+ <div class="welcome">
+    <h2>WELCOME</h2>
+<h1>Our Services</h1>
+</div>
+<div class="container mt-5 mb-5">
+
+   <div class="row">
+      
+       <div class="col-lg-4" *ngFor="let ss of serviceData">
+
+           <div class="servicebox mt-3 mb-3">
+               <img src="{{ss.serviceImg}}">
+               <h1>{{ss.serviceName}}</h1>
+               <p>{{ss.serviceDetails}}</p>
+               
+               <br/>
+              
+           </div>
+
+       </div>
+
+
+
+   </div>
+
+</div>
